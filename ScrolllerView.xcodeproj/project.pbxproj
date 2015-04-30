@@ -14,7 +14,7 @@
 		041F45D51AB168F300ACC711 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041F45D41AB168F300ACC711 /* Images.xcassets */; };
 		041F45D81AB168F300ACC711 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041F45D61AB168F300ACC711 /* LaunchScreen.xib */; };
 		041F45E41AB168F300ACC711 /* ScrolllerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F45E31AB168F300ACC711 /* ScrolllerViewTests.m */; };
-		041F45EF1AB1697000ACC711 /* PhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F45EE1AB1697000ACC711 /* PhotosView.m */; };
+		04D07E0F1AF211690002FF68 /* PhotosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D07E0E1AF211690002FF68 /* PhotosView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		041F45DD1AB168F300ACC711 /* ScrolllerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrolllerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041F45E21AB168F300ACC711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041F45E31AB168F300ACC711 /* ScrolllerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrolllerViewTests.m; sourceTree = "<group>"; };
-		041F45ED1AB1697000ACC711 /* PhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosView.h; sourceTree = "<group>"; };
-		041F45EE1AB1697000ACC711 /* PhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosView.m; sourceTree = "<group>"; };
+		04D07E0D1AF211690002FF68 /* PhotosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosView.h; sourceTree = "<group>"; };
+		04D07E0E1AF211690002FF68 /* PhotosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 				041F45CC1AB168F200ACC711 /* AppDelegate.m */,
 				041F45CE1AB168F200ACC711 /* ViewController.h */,
 				041F45CF1AB168F200ACC711 /* ViewController.m */,
-				041F45ED1AB1697000ACC711 /* PhotosView.h */,
-				041F45EE1AB1697000ACC711 /* PhotosView.m */,
+				04D07E0D1AF211690002FF68 /* PhotosView.h */,
+				04D07E0E1AF211690002FF68 /* PhotosView.m */,
 				041F45D11AB168F300ACC711 /* Main.storyboard */,
 				041F45D41AB168F300ACC711 /* Images.xcassets */,
 				041F45D61AB168F300ACC711 /* LaunchScreen.xib */,
@@ -227,7 +227,7 @@
 				041F45D01AB168F200ACC711 /* ViewController.m in Sources */,
 				041F45CD1AB168F200ACC711 /* AppDelegate.m in Sources */,
 				041F45CA1AB168F200ACC711 /* main.m in Sources */,
-				041F45EF1AB1697000ACC711 /* PhotosView.m in Sources */,
+				04D07E0F1AF211690002FF68 /* PhotosView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
