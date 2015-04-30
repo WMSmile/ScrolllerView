@@ -70,7 +70,7 @@
             btn.frame = CGRectMake(self.frame.size.width * i, 0, self.frame.size.width, self.frame.size.height);
             btn.tag = 100 + i;
             [btn addTarget:self action:@selector(BtnsClick:) forControlEvents:UIControlEventTouchUpInside];
-            [btn setBackgroundImageForState:UIControlStateNormal withURL:[NSURL URLWithString:ListAry[i]] placeholderImage:IMG(@"car_photo2")];
+            [btn setBackgroundImageForState:UIControlStateNormal withURL:[NSURL URLWithString:ListAry[i]] placeholderImage:nil];
 //            [btn setImageForState:UIControlStateNormal withURL:[NSURL URLWithString:ListAry[i]] placeholderImage:nil];
 //            btn.imageView.contentMode = UIViewContentModeScaleToFill;
             [self.imgSV addSubview:btn];

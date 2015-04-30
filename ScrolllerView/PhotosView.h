@@ -8,6 +8,7 @@
 
 
 #import <UIKit/UIKit.h>
+#import "UIButton+AFNetworking.h"
 
 @protocol photosViewDelegate <NSObject>
 - (void)touchesEventBYIndex:(int)index;
